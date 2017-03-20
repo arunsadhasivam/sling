@@ -4,7 +4,6 @@ To convert java project to sling:
 1)set project facet  to slightly 
 
 2)content module.
-<faceted-project>
   <installed facet="sling.content" version="1.0"/>
+  
   <installed facet="sightly" version="1.1"/>
-</faceted-project>
