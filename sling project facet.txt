@@ -5,9 +5,19 @@ To convert java project to sling:
 
 2)content module.
 
-.settings folder org.eclipse.wst.common.project.facet.core.xml should contain 
+.settings folder 
+========================
+
+1)org.eclipse.wst.common.project.facet.core.xml should contain 
+=======================================================================
 
  <faceted-project>
   <installed facet="sling.content" version="1.0"/>
   <installed facet="sightly" version="1.1"/>
 </faceted-project>
+
+org.eclipse.wst.validation.prefs file :
+===================================================
+
+eclipse.preferences.version=1
+org.apache.sling.ide.eclipse-core.content_sync_root=jcr_root
