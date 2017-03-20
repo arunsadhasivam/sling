@@ -8,6 +8,15 @@ To convert java project to sling:
 .settings folder 
 ========================
 
+contains 3 files.
+
+1)org.apache.sling.ide.eclipse-core.prefs
+
+2)org.eclipse.wst.common.project.facet.core.xml
+
+3)org.eclipse.wst.validation.prefs
+
+
 1)org.eclipse.wst.common.project.facet.core.xml should contain 
 =======================================================================
 
@@ -16,8 +25,23 @@ To convert java project to sling:
   <installed facet="sightly" version="1.1"/>
 </faceted-project>
 
-org.eclipse.wst.validation.prefs file :
+2)org.apache.sling.ide.eclipse-core.prefs file :
 ===================================================
 
 eclipse.preferences.version=1
 org.apache.sling.ide.eclipse-core.content_sync_root=jcr_root
+
+3)org.eclipse.wst.validation.prefs:
+======================================
+
+DELEGATES_PREFERENCE=delegateValidatorList
+USER_BUILD_PREFERENCE=enabledBuildValidatorListorg.eclipse.wst.wsi.ui.internal.WSIMessageValidator;
+USER_MANUAL_PREFERENCE=enabledManualValidatorListorg.eclipse.wst.wsi.ui.internal.WSIMessageValidator;
+USER_PREFERENCE=overrideGlobalPreferencesfalse
+eclipse.preferences.version=1
+override=true
+suspend=false
+vals/org.eclipse.wst.html.core.HTMLValidator/global=FF01
+vf.version=3
+
+
