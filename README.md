@@ -5,6 +5,7 @@ STEP 1:
 running sling
 
 C:\Sling>java -jar org.apache.sling.launchpad-8.jar
+
 19.03.2017 22:44:23.438 *INFO * [main] Setting sling.home=sling (default)
 19.03.2017 22:44:23.446 *INFO * [main] Starting Apache Sling in C:\Sling\sling
 19.03.2017 22:44:23.458 *INFO * [main] Sling  Extension Lib Home : C:\Sling\slin
